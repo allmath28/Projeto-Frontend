@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatListModule} from "@angular/material/list";
 import {MatCardModule} from "@angular/material/card";
 import { CardComponentComponent } from './shared/card-component/card-component.component';
+import {NgOptimizedImage} from "@angular/common";
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CardComponentComponent } from './shared/card-component/card-component.c
         BrowserModule,
         BrowserAnimationsModule,
         MatListModule,
-        MatCardModule
+        MatCardModule,
+        NgOptimizedImage
     ],
   providers: [],
   bootstrap: [AppComponent]
